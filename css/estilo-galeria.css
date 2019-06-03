@@ -1,0 +1,160 @@
+body {
+	margin: 0px;
+	padding: 0px;
+    background-image: 
+    url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/congruent_pentagon.png");
+}
+
+h1 {
+    margin: 0;
+    padding-left: 600px;
+    float: left;
+    font-size: 1px;
+    text-indent: 1979px;
+}
+
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	font-family: "Josefin Slab",arial,verdana;
+	font-size: 28px;
+	color: #FFFDF3;
+	padding-top: 30px;
+}
+
+header {
+	width:960px;
+	height: 260px;
+	margin: 0 auto;
+}
+
+nav {
+	width:960px;
+	height: 50px;
+    text-align: center;
+}
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+    padding-left: 50px;
+    color: #FAF9FF;
+}
+
+
+
+
+.botonera {
+    display: inline;
+    padding: 90px;
+    font-size: 20px;
+    font-family: "Josefin Slab",arial,verdana;
+
+}
+
+li a {
+	text-decoration: none;
+	color: #FFFDF3;
+}
+
+li a:hover {
+	color: #FAF9FF;
+
+}
+
+
+
+
+#contenedor {
+	width: 960px;
+	height: auto;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #962CFF;
+	background-image:url("../img/fondogaleria1.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#presentacion1 {
+	width: 960px;
+	height:747px;
+}
+
+
+#redes {
+	float: right;
+	padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+#lightgallery{
+	padding-top: 39px;
+	width: 80%;
+	margin:0 auto;
+}
+
+#lightgallery img {
+	width: 130px;
+	height: 130px;
+	margin: 2px;
+	border:1px solid #333;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	-webkit-box-shadow: 0.25px 0.25px 2px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0.25px 0.25px 2px 0px rgba(0,0,0,0.75);
+	box-shadow: 0.25px 0.25px 2px 0px rgba(0,0,0,0.75);
+}
+
+#lightgallery img:hover{
+	margin: 3px;width: 111px;height: 111px;
+	animation: bardearla 5s 1;
+	-webkit-animation:bardearla 0.5s 1;
+}
+@keyframes bardearla{
+	0%{margin:14px;width: 100px;height: 100px}
+	100%{margin: 3px;width: 111px;height: 111px}
+}
+
+footer {
+	width: 960px;
+	height: 130px;
+	clear: both;
+  	background-image: url("../img/trama1.jpg"); 
+}
+
+strong {
+	font-weight: bold;
+}
+
+.nombrepropio {
+	float: left;
+    text-decoration: underline;
+    color: #000000;
+	margin:0;
+    font-family: "Josefin Slab",arial,verdana;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.rojo {
+  margin:0;
+  height: 131px;
+  width: auto;
+}
+
+
+
+
+
+

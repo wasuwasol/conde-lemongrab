@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8">
+		<link href="data:image/x-icon;base64,AAABAAEAEBAAAAAAAABoBQAAFgAAACgAAAAQAAAAIAAAAAEACAAAAAAAAAEAAAAAAAAAAAAAAAEAAAAAAAD/JgAAAN3/AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAQEBAQEBAQEBAQEBAQAAAQEBAAAAAAAAAAAAAAEAAAEBAQEBAAABAQEAAAABAAABAQEBAQAAAQEBAQAAAQAAAQEBAQEAAAEBAQEBAAEAAAEBAQEBAAABAQEBAQEBAAABAQEBAQAAAQEBAQEBAQAAAQEBAQEAAAEBAQEBAQEAAAEBAQEBAAABAQEBAQEBAAABAQEBAQAAAQEBAQEBAQAAAQEBAQEAAAEBAQEBAQEAAAEBAQEBAAABAQEBAQEBAAABAQEAAAAAAAABAQEBAQAAAQEBAQEBAQEBAQEBAQEAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=" rel="icon" type="image/x-icon" />
+		<title>Cuestionario - Lemongrab</title>
+		<link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Josefin Slab">
+		<link rel="stylesheet" type="text/css" href="css/estilo-contacto.css">
+	</head>	
+	<body>
+		<div id="contenedor" class="gradient-pattern">
+			<header>
+				<h1>El Conde de Lemongrab</h1>
+				<a href="index.html">
+				<img src= "img/titulo2.png" alt="El Conde de Lemongrab" 
+				style="width:722px;height:260px;">
+				</a>
+			</header>
+			<nav> 
+				<ul>
+				  <li><a href="index.html">Inicio</a></li>
+				  <li><a href="galeria.html">Bosque de Arte</a></li>
+				  <li><a href="contacto.html">Cuestionario</a></li>
+				</ul>
+			</nav>
+		<div>
+			<article id="presentacion1">
+			<p><strong><u>Completa los siguientes campos teniendo en cuenta tus gustos personales</u></strong></p> 
+				<div class="formulario">
+					<form action="enviar.php" method="post">
+						<label>Nombre: <input type=text name="nombre"></label>
+						<label>Apellido: <input type=text name="apellido"></label>
+						<label>Email: <input type=text name="email"></label>
+						<label>Mensaje: <br><textarea name="msj"></textarea></label>
+						<br><br><br>
+						<label>¿Cuál es tu ser?
+								<select name="pregunta1">
+									<option selected=" "> </option>
+									<option value="Vampiro">Vampiro</option>
+									<option value="Otro">Otro</option>
+									<option value="Humano">Humano</option>
+									<option value="Comida">Comida</option>
+									<option value="Golosina">Golosina</option>
+									<option value="Realeza">Realeza</option>
+									<option value="Electronico">Electrónico</option>
+								</select>
+						</label>
+						<label>¿Como va tu día?
+								<select name="pregunta2">
+									<option selected=" "> </option>
+									<option value="Muchas obligaciones">Muchas obligaciones</option>
+									<option value="Muchas aventuras">Muchas aventuras</option>
+									<option value="Tengo que rescatar a la princesa">Tengo que rescatar a la princesa</option>
+									<option value="CIENCIA!!">CIENCIA!!</option>
+									<option value="Lo que sea">Lo que sea</option>
+								</select>
+						</label>
+						<label>Si fueras a salir con una de las princesas de hora de aventura ¿Cuál sería?
+								<select name="pregunta3">
+									<option selected=" "> </option>
+									<option value="Princesa Salvaje">Princesa Salvaje</option>
+									<option value="Princesa Angel del Espacio">Princesa Angel del Espacio</option>
+									<option value="Princesa Laurel">Princesa Laurel</option>
+									<option value="Princesa Grumosa">Princesa Grumosa</option>
+									<option value="Dulce Princesa">Dulce Princesa</option>
+									<option value="Princesa Flama">Princesa Flama</option>
+									<option value="Princesa Desayuno">Princesa Desayuno</option>
+								</select>
+						</label>
+						<label>¿En que casa de hora de aventuras vivirías?
+								<select name="pregunta4">
+									<option selected=" "> </option>
+									<option value="Fuente del Arbol">Fuente del Arbol</option>
+									<option value="Casa de Marceline">Casa de Marceline</option>
+									<option value="Casa de Arcoiris">Casa de Arcoiris</option>
+									<option value="Castillo de la dulce princesa">Castillo de la dulce princesa</option>
+									<option value="Castillo limonagrio">Castillo limonagrio</option>
+									<option value="Castillo helado">Castillo helado</option>
+								</select>
+						</label>
+						<input type=submit value="Enviar" class="btnenviar">
+					</form>
+				</div> 
+			</article>
+		</div>
+			<footer>
+					<a href="webextra.html">
+					<h3 class="nombrepropio">Jorge Schenone</h3>
+					</a>
+					<img src="img/lemonrojo.png" class="rojo">
+				<div id="redes">
+					<a href="https://twitter.com/hashtag/adventuretime">
+					<img src="img/twitter.png">
+					</a>
+						<a href="https://www.youtube.com/channel/UCnuY1SnJjQPHFNHcihjd3lg/featured">
+						<img src="img/youtube.png">
+						</a>
+					<a href="https://www.facebook.com/adventuretime/?fref=ts">
+					<img src="img/facebook.png">
+					</a>
+				</div>
+			</footer>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,199 @@
+body {
+	margin: 0px;
+	padding: 0px;
+    background-image: 
+    url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/congruent_pentagon.png");
+}
+
+header h1 {
+    margin: 0;
+    padding-left: 600px;
+    float: left;
+    font-size: 1px;
+    text-indent: 1979px;
+}
+
+header {
+	width:960px;
+	height: 260px;
+}
+
+nav {
+	width:960px;
+	height: 50px;
+  text-align: center;
+}
+
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+    padding-left: 50px;
+    color: #FAF9FF;
+}
+
+
+li {
+  display: inline;
+  padding: 90px;
+  font-size: 20px;
+  font-family: "Josefin Slab",arial,verdana;
+}
+
+li a {
+	text-decoration: none;
+  color: #FAF9FF;
+}
+
+
+section {
+	width: 960px;
+	height: 1770px;
+	float: left;
+}
+
+
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	font-family: "Josefin Slab",arial,verdana;
+	font-size: 28px;
+}
+
+#contenedor {
+	width: 960px;
+	height: 1309px;
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+}
+
+#presentacion1 {
+	width: 960px;
+	height: 853px;
+}
+
+p {
+	font-family: "Josefin Slab",arial,verdana;
+	font-size: 25px;
+	font-weight: 300;
+  color: #000000;
+  margin: 90px auto;
+  width: 519px;
+}
+
+strong {
+  font-weight: bold;
+  font-size: 27px;
+}
+
+
+
+#redes {
+	float: right;
+	padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+
+footer {
+  width: 960px;
+  height: 130px;
+  clear: both;
+  background-image: url("../img/trama1.jpg"); 
+}
+
+
+.nombrepropio {
+    float: left;
+    text-decoration: underline;
+    color: #000000;
+    margin:0;
+    font-family: "Josefin Slab",arial,verdana;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.gradient-pattern {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 320px;
+  height: 320px;
+  border: none;
+  font-family: Arial, Helvetica, sans-serif;
+  color: rgba(255,255,255,1);
+  -o-text-overflow: clip;
+  text-overflow: clip;
+  background: -webkit-linear-gradient(22.61986494804043deg, rgba(255,0,102,0) 20%, rgba(255,0,102,0.0980392) 20%, rgba(255,0,102,0.0980392) 40%, rgba(255,0,102,0.2) 40%, rgba(255,0,102,0.2) 60%, rgba(255,0,102,0.4) 60%, rgba(255,0,102,0.4) 80%, rgba(255,0,102,0.6) 80%), -webkit-linear-gradient(-23.629377730656813deg, rgba(255,0,102,0) 20%, rgba(255,0,102,0.0980392) 20%, rgba(255,0,102,0.0980392) 40%, rgba(255,0,102,0.2) 40%, rgba(255,0,102,0.2) 60%, rgba(255,0,102,0.4) 60%, rgba(255,0,102,0.4) 80%, rgba(255,0,102,0.6) 80%), rgb(255, 204, 0);
+  background: -moz-linear-gradient(67.38013505195957deg, rgba(255,0,102,0) 20%, rgba(255,0,102,0.0980392) 20%, rgba(255,0,102,0.0980392) 40%, rgba(255,0,102,0.2) 40%, rgba(255,0,102,0.2) 60%, rgba(255,0,102,0.4) 60%, rgba(255,0,102,0.4) 80%, rgba(255,0,102,0.6) 80%), -moz-linear-gradient(113.62937773065681deg, rgba(255,0,102,0) 20%, rgba(255,0,102,0.0980392) 20%, rgba(255,0,102,0.0980392) 40%, rgba(255,0,102,0.2) 40%, rgba(255,0,102,0.2) 60%, rgba(255,0,102,0.4) 60%, rgba(255,0,102,0.4) 80%, rgba(255,0,102,0.6) 80%), rgb(255, 204, 0);
+  background: linear-gradient(67.38013505195957deg, rgba(255,0,102,0) 20%, rgba(255,0,102,0.0980392) 20%, rgba(255,0,102,0.0980392) 40%, rgba(255,0,102,0.2) 40%, rgba(255,0,102,0.2) 60%, rgba(255,0,102,0.4) 60%, rgba(255,0,102,0.4) 80%, rgba(255,0,102,0.6) 80%), linear-gradient(113.62937773065681deg, rgba(255,0,102,0) 20%, rgba(255,0,102,0.0980392) 20%, rgba(255,0,102,0.0980392) 40%, rgba(255,0,102,0.2) 40%, rgba(255,0,102,0.2) 60%, rgba(255,0,102,0.4) 60%, rgba(255,0,102,0.4) 80%, rgba(255,0,102,0.6) 80%), rgb(255, 204, 0);
+  background-position: auto auto;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+}
+
+.formulario{
+  font-size:14px;
+  width: 330px;
+  margin: 25px auto;
+}
+.formulario label{
+  display: block;
+  text-align: left;
+  width: 100%;
+  font-size: 15.5px;
+  color:black;
+}
+.formulario label input,.formulario label select{
+  width: inherit;
+  background: transparent;
+  border: none;
+  border-bottom: 1px solid black;
+  margin-bottom: 4px;
+  padding: 3px;
+  font-size: 14.5px;
+  margin-top: 10px;
+}
+.formulario p{
+  font-size: 15.5px;
+  color:black;
+  margin:8px 0;
+}
+.formulario textarea{
+  border: 1px solid black;
+  background: transparent;
+  margin-bottom: 18px;
+  width: 98%;
+  padding: 3px;
+  font-size: 14.5px;
+}
+.formulario label input:hover,.formulario label input:focus,.formulario label input{
+  outline: none;
+}
+.btnenviar{
+  background: transparent;
+  text-transform: uppercase;
+  padding: 11px;
+  font-size: 13px;
+  border: 1px solid black;
+}
+
+.rojo {
+  margin:0;
+  height: 131px;
+  width: auto;
+}

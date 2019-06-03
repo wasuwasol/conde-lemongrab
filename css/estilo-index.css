@@ -1,0 +1,275 @@
+body {
+	margin: 0px;
+	padding: 0px;
+    background-image: 
+    url("http://subtlepatterns2015.subtlepatterns.netdna-cdn.com/patterns/congruent_pentagon.png");
+}
+
+h1 {
+    margin: 0;
+    padding-left: 600px;
+    float: left;
+    font-size: 1px;
+    text-indent: 1979px;
+}
+
+header {
+	width:960px;
+	height: 260px;
+}
+
+nav {
+	width:960px;
+	height: 50px;
+    text-align: center;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    padding-top: 15px;
+    padding-left: 50px;
+}
+
+
+li {
+    display: inline;
+    padding: 90px;
+    font-size: 20px;
+    font-family: "Josefin Slab",arial,verdana;
+}
+
+li a {
+	text-decoration: none;
+}
+
+li a:hover {
+	color: #FAF9FF;
+
+}
+
+
+section {
+	width: 960px;
+	height: 1770px;
+	float: left;
+}
+
+
+h2 {
+	text-align: center;
+	text-decoration: underline;
+	font-family: "Josefin Slab",arial,verdana;
+	font-size: 28px;
+}
+
+#contenedor {
+	width: 960px;
+	height: 1017px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #962CFF;
+	background-image:url("../img/fondonuevo.jpg");
+	background-repeat: no-repeat;
+	text-align: center;
+}
+
+#presentacion1 {
+	width: 960px;
+	height: 554px;
+}
+
+
+
+.chaboncito {
+	width: 109px;
+    height: auto;
+    position:relative;
+    animation:movimiento 6s infinite;
+}
+
+@keyframes movimiento{
+	0% {right:0;}
+	50% {right:100px;}
+	100% {right: 0;}
+}
+
+#caja1,.texto{
+	text-align: center;
+}
+
+#caja1 {
+	position: relative;
+	padding-top: 80px;
+
+}
+
+
+
+section p {
+	font-family: "Josefin Slab",arial,verdana;
+	font-size: 17px;
+	font-weight: 300;
+
+}
+
+
+.presentacion1parrafo1 {
+	width: 500px;
+	margin-left:auto;
+	margin-right: auto;
+	color: #153540;
+	font-style: bold;
+	margin-top: -12px;
+}
+
+.presentacion2-h2-1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #1A337F;
+    padding-top: 92px;
+}
+
+.presentacion2-h2-2 {
+    text-align: center;
+    text-decoration: underline;
+    color: #1A337F;
+    margin-top:112px;
+}
+
+.parrafo1presentacion2 {
+    width: 400px;
+    text-align: center;
+    margin-left: 451px;
+    left: 378px;
+    font-size: 20px;
+    font-family: "Josefin Slab",arial,verdana;
+   	color: #FFFFFF;
+    background-color:rgba(26,90,56,0.85);
+    padding: 20px;	
+    margin-bottom: -40px;
+    border-radius: 5%;
+}
+
+.parrafo2presentacion2 {
+	float: left;
+    width: 400px;
+    text-align: center;
+    margin-top: 45px;
+    margin-left: 50px; 
+    font-size: 20px;
+    font-family: "Josefin Slab",arial,verdana;
+    color: #FFFFFF;
+    background-color:rgba(26,90,56,0.85);
+    padding: 20px;	
+    margin-bottom: -40px;
+    border-radius: 5%;
+}
+
+
+
+.avatar{
+	width: 152px;
+	height: 152px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-image: url("../img/personalidad.gif");
+	background-position: -353px 0;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    top: 198px;
+    left: 180px;
+}
+
+.nat {
+	width: 300px;
+	height: auto;
+	-webkit-border-radius: 10%;
+	-moz-border-radius: 10%;
+	border-radius: 10%;
+	margin-top: -135px;
+	float: right;
+	margin-right: 118px;
+}
+
+
+#redes {
+	float: right;
+	padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+
+footer {
+	width: 960px;
+	height: 130px;
+	clear: both;
+  	background-image: url("../img/trama1.jpg");  
+}
+
+
+strong {
+	font-weight: bold;
+}
+
+.nombrepropio {
+	float: left;
+    text-decoration: underline;
+    color: #000000;
+	margin:0;
+    font-family: "Josefin Slab",arial,verdana;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+.rojo {
+  margin:0;
+  height: 131px;
+  width: auto;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,471 @@
+body {
+	margin: 0px;
+	padding: 0px;
+    background:
+	radial-gradient(black 15%, transparent 16%) 0 0,
+	radial-gradient(black 15%, transparent 16%) 8px 8px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+	radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+	background-color:#282828;
+	background-size:16px 16px;
+}
+
+h1 {
+    margin: 0;
+    padding-left: 600px;
+    float: left;
+    font-size: 1px;
+    text-indent: 1979px;
+}
+
+header {
+	width:960px;
+	height: 260px;
+}
+
+
+
+section {
+	width: 960px;
+	height: 1770px;
+	float: left;
+}
+
+
+h2 {
+	margin-top: 32px;
+	text-align: center;
+	text-decoration: underline;
+	font-family: "Josefin Slab",arial,verdana;
+	font-size: 28px;
+}
+
+#contenedor {
+	width: 960px;
+	height: 16087px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: hsl(2, 57%, 40%);
+	background-image: repeating-linear-gradient(transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+	repeating-linear-gradient(270deg, transparent, transparent 50px, rgba(0,0,0,.4) 50px, rgba(0,0,0,.4) 53px, transparent 53px, transparent 63px, rgba(0,0,0,.4) 63px, rgba(0,0,0,.4) 66px, transparent 66px, transparent 116px, rgba(0,0,0,.5) 116px, rgba(0,0,0,.5) 166px, rgba(255,255,255,.2) 166px, rgba(255,255,255,.2) 169px, rgba(0,0,0,.5) 169px, rgba(0,0,0,.5) 179px, rgba(255,255,255,.2) 179px, rgba(255,255,255,.2) 182px, rgba(0,0,0,.5) 182px, rgba(0,0,0,.5) 232px, transparent 232px),
+	repeating-linear-gradient(125deg, transparent, transparent 2px, rgba(0,0,0,.2) 2px, rgba(0,0,0,.2) 3px, transparent 3px, transparent 5px, rgba(0,0,0,.2) 5px);
+	text-align: center;
+}
+
+#index {
+    width: 272px;
+    height: 100px;
+    padding-left: 357px;
+    padding-top: 217px;
+}
+
+#galeria {
+	float: left;
+    width: 272px;
+    height: 100px;
+    padding-left: 92px;
+    padding-top: 87px;
+}
+
+
+#contacto {
+    float: right;
+    width: 374px;
+    height: 100px;
+    padding-right: 73px;
+    padding-top: 87px;
+}
+
+section p {
+	font-family: "Josefin Slab",arial,verdana;
+	font-size: 17px;
+	font-weight: 300;
+
+}
+
+
+
+#redes {
+	float: right;
+	padding-top: 15px;
+    padding-left: 30px;
+    padding-right: 20px;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+
+
+footer {
+	width: 960px;
+	height: 130px;
+	clear: both;
+ 	background-image: url("../img/trama1.jpg"); 
+}
+
+
+
+strong {
+	font-weight: bold;
+}
+
+.Josefin {
+	font-family: "Josefin Slab",arial,verdana;
+	font-size: 27px;
+	font-weight: 300;
+	margin-top: 71px;
+	color: #FFFDFB;
+}
+
+.Times {
+	font-family: Times,arial,verdana;
+	font-size: 27px;
+	font-weight: 300;
+	margin-top: 20px;
+	color: #FFFDFB;
+	margin-top: 62px;
+}
+
+#presentacion1 {
+	width: 960px;
+	height: 554px;
+}
+
+#presentacion2 {
+	width: 960px;
+	height: 1658px;
+}
+
+#presentacion3 {
+	width: 960px;
+	height: 2346px;
+}
+
+#presentacion4 {
+	clear: both;
+	width: 960px;
+	height: 1024px;
+	background-image: url("../img/mapadesitio.jpg");
+}
+
+
+#fondo3 {
+	padding-top: 189px;
+}
+
+#colores1 {
+	float: left;
+	height: 1000px;
+	width: 480px;
+	margin: 0; 
+}
+
+#colores2 {
+	float: right;
+	height: 1000px;
+	width: 480px;
+	margin: 0; 
+}
+
+#color1 p {
+    width: 511px;
+    font-family: "Josefin Slab",arial,verdana;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 25px;
+}
+
+#color1 {
+	display: block;
+	clear: both;
+	width: 200px;
+	height: 200px;
+	background-color: #010050;
+	margin-left: 80px;
+	margin-top: 25px;
+}
+
+#color2 p {
+    width: 511px;
+    font-family: "Josefin Slab",arial,verdana;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 25px;
+}
+
+#color2 {
+	display: block;
+	clear: both;
+	width: 200px;
+	height: 200px;
+	background-color: #a2e0ec;
+	margin-left: 80px;
+	margin-top: 25px;
+}
+
+#color3 p {
+    width: 511px;
+    font-family: "Josefin Slab",arial,verdana;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 25px;
+}
+
+#color3 {
+	display: block;
+	clear: both;
+	width: 200px;
+	height: 200px;
+	background-color: #ffb8a2;
+	margin-left: 80px;
+	margin-top: 25px;
+}
+
+#color4 p {
+    width: 511px;
+    font-family: "Josefin Slab",arial,verdana;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 25px;
+}
+
+#color4 {
+	display: block;
+	clear: both;
+	width: 200px;
+	height: 200px;
+	background-color: #015347;
+	margin-left: 80px;
+	margin-top: 25px;
+}
+
+#color5 p {
+    width: 511px;
+    font-family: "Josefin Slab",arial,verdana;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 25px;
+}
+
+#color5 {
+	display: block;
+	clear: both;
+	width: 200px;
+	height: 200px;
+	background-color: #ffbb06;
+	margin-left: 80px;
+	margin-top: 25px;
+}
+
+#color6 p {
+    width: 511px;
+    font-family: "Josefin Slab",arial,verdana;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 25px;
+}
+
+#color6 {
+	display: block;
+	clear: both;
+	width: 200px;
+	height: 200px;
+	background-color: #ff364e;
+	margin-left: 80px;
+	margin-top: 25px;
+}
+
+#color7 p {
+    width: 511px;
+    font-family: "Josefin Slab",arial,verdana;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 25px;
+}
+
+#color7 {
+	display: block;
+	clear: both;
+	width: 200px;
+	height: 200px;
+	background-color: #ffffff;
+	margin-left: 80px;
+	margin-top: 25px;
+}
+
+#color8 p {
+    width: 511px;
+    font-family: "Josefin Slab",arial,verdana;
+    font-size: 22px;
+    font-weight: 300;
+    margin: 0;
+    padding-top: 25px;
+}
+
+#color8 {
+	display: block;
+	clear: both;
+	width: 200px;
+	height: 200px;
+	background-color: #000000;
+	margin-left: 80px;
+	margin-top: 25px;
+}
+
+
+.enjoy-css {
+  -webkit-box-sizing: content-box;
+  -moz-box-sizing: content-box;
+  box-sizing: content-box;
+  width: 300px;
+  height: 300px;
+  border: none;
+  font: normal 16px/1 "Times New Roman", Times, serif;
+  color: rgb(255, 255, 255);
+  text-align: center;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  background: -webkit-linear-gradient(-90deg, rgba(0,0,0,0) 0, rgba(0,0,0,0.458824) 8%, rgba(0,0,0,0.6) 15%, rgba(0,0,0,0.85098) 26%, rgba(0,0,0,0.85098) 63%, rgba(0,0,0,0.792157) 80%, rgba(0,0,0,0.6) 89%, rgba(0,0,0,0.490196) 100%), rgba(0,0,0,0);
+  background: -moz-linear-gradient(180deg, rgba(0,0,0,0) 0, rgba(0,0,0,0.458824) 8%, rgba(0,0,0,0.6) 15%, rgba(0,0,0,0.85098) 26%, rgba(0,0,0,0.85098) 63%, rgba(0,0,0,0.792157) 80%, rgba(0,0,0,0.6) 89%, rgba(0,0,0,0.490196) 100%), rgba(0,0,0,0);
+  background: linear-gradient(180deg, rgba(0,0,0,0) 0, rgba(0,0,0,0.458824) 8%, rgba(0,0,0,0.6) 15%, rgba(0,0,0,0.85098) 26%, rgba(0,0,0,0.85098) 63%, rgba(0,0,0,0.792157) 80%, rgba(0,0,0,0.6) 89%, rgba(0,0,0,0.490196) 100%), rgba(0,0,0,0);
+  background-position: 50% 50%;
+  -webkit-background-origin: padding-box;
+  background-origin: padding-box;
+  -webkit-background-clip: border-box;
+  background-clip: border-box;
+  -webkit-background-size: auto auto;
+  background-size: auto auto;
+}
+
+
+
+#fondogradiente {	
+	width: 960px;
+	height: 2329px;
+}
+
+.posicionp1 {
+	margin: 0;
+	height: 600px;
+	width: 500px;
+    padding-left: 400px;
+    padding-top: 6px;
+	font-family: Times,arial,verdana;
+	font-size: 17px;
+	font-weight: 300;
+}
+
+#posicionp2 {
+	font-family:  Times,arial,verdana;
+	font-size: 17px;
+	font-weight: 300;
+	height: 600px;
+	width: 300px;
+	padding-left: 500px;
+	padding-top: 54px;
+	color: #FFFDF3;
+	margin: 0;
+}
+
+
+#posicionp2 strong {
+	font-weight: 600;
+}
+
+
+.nombrepropio {
+	float: left;
+    text-decoration: underline;
+    color: #000000;
+	margin:0;
+    font-family: "Josefin Slab",arial,verdana;
+    font-size: 30px;
+    padding-left: 30px;
+    padding-top: 30px;
+}
+
+
+.avatar{
+	width: 152px;
+	height: 152px;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+	background-image: url("../img/personalidad.gif");
+	background-position: -353px 0;
+    background-size: cover;
+    display: inline-block;
+    position: absolute;
+    top: 933px;
+    left: 256px;
+}
+
+.nacimiento {
+	float: left;
+	width: 300px;
+	height: auto;
+	padding-left: 50px;
+	padding-top: 371px;
+}
+
+.justin {
+    float: left;
+    width: 300px;
+    height: auto;
+    display: block;
+    clear: both;
+    margin-left: 50px;
+    padding-top: 257px;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 22%;
+}
+
+.nat {
+    width: 300px;
+    height: auto;
+    -webkit-border-radius: 10%;
+    -moz-border-radius: 10%;
+    border-radius: 22%;
+    margin-top: 126px;
+    float: left;
+    margin-right: 118px;
+    display: block;
+    clear: both;
+    margin-left: 30px;
+}
+
+.lemongrab {
+	margin: 0;
+	padding-left: 40px;
+	float: left;
+	padding-top: 30px;
+}
+
+.titulos{
+	font-size: 68px;
+	color: white;
+	text-align: center;
+	text-decoration: underline;
+	font-family: "Josefin Slab",arial,verdana;
+	margin:80px auto;
+}
+
+.rojo {
+  margin:0;
+  height: 131px;
+  width: auto;
+}
+
+
+
